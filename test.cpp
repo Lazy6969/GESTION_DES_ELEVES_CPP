@@ -9,6 +9,15 @@ void cls(){
     system("cls");
 }
 
+//void ajout
+void ajout_etudiant(){
+
+}
+
+//void rechercher etudiant
+void recherche_etudiant(){
+    
+}
 //Juste affichage du menu
 void menu(){
     cls();
