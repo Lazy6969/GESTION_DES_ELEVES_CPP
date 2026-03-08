@@ -90,7 +90,7 @@ void recherche_etudiant(){
     cls();
     cout<<"RECHERCHER UN ETUDIANT"<<endl<<endl;
     string recherche;
-    cout << "Veuiller entrer votre recherche par nom de l'etudiant ou par son prenom  : ";cin>>recherche;
+    cout << "Veuiller entrer votre recherche par nom de l'etudiant ou par son prenom  exacte: ";cin>>recherche;
     cout << "Voici les resultats du recherche : "<<endl<<endl;
     cin.ignore();
     for(i=1;i<=j;i++){
