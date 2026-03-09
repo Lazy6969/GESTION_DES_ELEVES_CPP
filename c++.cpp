@@ -1,12 +1,15 @@
+//ajout des bibliothèques
 #include <iostream>
 #include <cstdlib>
 #include <fstream>
 using namespace std;
 
+//Effacer les interfaces après chaque ouverture
 void cls(){
     system("cls");
 }
 
+//Juste affichage du menu
 void menu(){
     cls();
     cout << "VOICI LE MENU :" << endl;
@@ -16,9 +19,11 @@ void menu(){
     cout << "   4. QUITTER " << endl;
 }
 
+//Fonction principale ou le programme execute
 int main()
 {
     cout << "Hello world!" << endl;
     return 0;
 }
+
 
